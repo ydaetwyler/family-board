@@ -3,5 +3,5 @@ build:
     server: ./backend/Dockerfile
     client: ./frontend/project-x/Dockerfile
 run:
-  server: npm run start:prod
-  client: npm start
+  server: npm i && npm bild && run start:prod
+  client: npm i && npm start
